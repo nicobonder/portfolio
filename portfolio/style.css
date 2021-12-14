@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: black;
+    background-color: black;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#particles-js  {
+	height: 100vh; 
+	width: 100%;
+    position: fixed; /*esto hace q quede fijo en pantalla y se vea de fondo*/
+    z-index: -999;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: white;
+}
+
+.container{
+    margin: 0 3.5rem 2rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.presentacion{
+    display: flex;
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 1rem;
+}
+
+.left{ 
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;   
+}
+
+.right{
+    background-color: #F5AF31;
+    width: 40%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion img{
+    height: 55vh;
+    width: auto;
+    position: absolute;
+    z-index: 110;
+    transform: translateX(-83%);
+}
+
+
+.hello{
+    margin-left: 4rem;
+    font-size: 1rem;
+}
+
+.developer{
+    font-size: 1.2rem;
+    margin: 0 0 2rem 4rem;
+}
+
+h1{
+    color: #F5AF31;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+
+.left h3{
+    border: 1px solid #F5AF31;
+    border-radius: 0.0125rem;
+    color: white;
+    width: 7rem;
+    font-size: 0.8rem;
+    text-align: center;
+    
+}
+
+.left a{
+    width: 7rem;
+    margin-left: 4rem;
+    
+}
+
+.fab{
+    color: #4BC858;
+}
+
+.spanish{
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.0125rem;
+    width: 7.5rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 5rem 4rem;
+    -webkit-box-shadow: 13px 14px 3px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 13px 14px 3px -1px rgba(0,0,0,0.75);
+box-shadow: 13px 14px 3px -1px rgba(0,0,0,0.75);
+}
+
+.spanish p{
+    font-size: 0.7rem;
+}
+
+.spanish h3{
+    font-size: 0.8rem;
+    
+}
+
+.spanish a{
+    color: white;
+}
+
+
+.about h2{
+    color: #F5AF31;
+    font-size: 1.2rem;
+}
+
+.about{
+    width: 100%;
+    margin: 2rem 0 1rem 0;
+    display: flex;
+}
+
+.about p{
+    margin: 0 0.5rem;
+    
+}
+
+.left2{
+    width: 45%;
+    justify-content: left;   
+    z-index: 100;
+}
+
+.left2 p{
+    margin-top: 0.5rem; 
+    text-align: left;
+}
+
+.right2{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    text-align: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.info{
+    display: flex;
+    text-align: left;
+    justify-content: right;
+    margin-top: 0.5rem;
+    z-index: 1;
+}
+
+.info p{
+    margin-bottom: 0.5rem;
+}
+
+.column2{
+    margin-left: -0.5rem;
+}
+
+.right2 h3{
+    border: 1px solid #F5AF31;
+    border-radius: 0.0125rem;
+    color: white;
+    width: 7rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.right2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.shape{
+    position: absolute;
+    z-index: -110;
+    transform: translate(-190%, -10%);
+}
+
+.shape img{
+    width: 10rem;
+    height: auto;
+    z-index: -300;
+    transform: translate(25%, -10%);
+}
+
+.projectSection{
+    width: 100%;
+    margin: 1rem;
+}
+
+.projectSection h2{
+    color: #F5AF31;
+    font-size: 1.2rem;  
+    margin: 1rem 0;  
+}
+
+.project{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectSection h3{
+    color: white;
+    font-size: 0.8rem;
+    background-color: #F5AF31;
+    margin-top: 3.5rem;
+    border-radius: 0.25rem;
+}
+
+.project img{
+    height: 8rem;
+    width: 8rem;    
+}
+
+.content{
+    width: 8rem;
+    background-image: url(/sentado.png);
+    background-size: 100%;
+    height: 8rem;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;    
+    border: solid 2px #F5AF31;
+}
+
+.alto{
+    width: 8rem;
+    background-image: url(/logo.png);
+    background-size: 100%;
+    height: 8rem;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;    
+    border: solid 2px #F5AF31;
+}
+
+.contactSection{
+    display: flex;
+    flex-direction: column;
+}
+.contactSection h2{
+    color: #F5AF31;
+    font-size: 1.2rem;  
+    margin: 2rem 0 1rem 0;  
+}
+
+
+#name{
+    border: 2px solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #F5AF31;
+    width: 7.5rem;
+    font-size: 0.7rem;
+    text-align: left;
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+#name::placeholder{
+    color: white;
+    padding-left: 0.2rem;
+}
+
+#email{
+    border: 2px solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #F5AF31;
+    width: 7.5rem;
+    font-size: 0.7rem;
+    text-align: left;
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+#email::placeholder{
+    color: white;
+    padding-left: 0.2rem;
+}
+
+#text{
+    border: 2px solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #F5AF31;
+    font-size: 0.7rem;
+    width: 16.2rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+#text::placeholder{
+    color: white;
+    padding-left: 0.2rem;
+}
+
+#send{
+    border: 2px solid white;
+    border-radius: 0.125rem;
+    color: white;
+    background-color: #F5AF31;
+    font-size: 0.8rem;
+    width: 5rem;
+    height: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#send:hover{
+    cursor: pointer;
+}
+
+#contact{
+    animation-duration: 3s;
+    animation-name: contact;
+    animation-iteration-count: infinite;
+}
+
+.thanks{
+    margin: 1rem 0 0 4rem;
+}
+
+@keyframes contact {
+    0%, 31%, 45%, 57%, 65%, 70%, 100%  { 
+        opacity: 1;
+    }
+
+    42%, 44%, 56%, 58%, 60%, 67%, 80%  { 
+        opacity: 0; 
+        
+    }
+}
