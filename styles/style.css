@@ -378,16 +378,16 @@
         animation-iteration-count: infinite;
     }
 
-    .th h1{
-        font-size: 1rem;
-        margin: 1rem 0 0 0;
+     .th h1{
+        font-size: 0.7rem;
+        margin: 1rem 0.5rem 0 0.5rem;
     }
 
     .thanks{
-        font-size: 0.6rem;
-        margin: 1rem 0 0 0;
+        font-size: 0.5rem;
+        margin: 1rem 0.5rem 0 0.5rem;
     }
-
+   
     @keyframes contact {
         0%, 31%, 45%, 57%, 65%, 70%, 100%  { 
             opacity: 1;
@@ -779,15 +779,15 @@
     }
 
     .th h1{
-        font-size: 1rem;
-        margin: 1rem 0 0 0;
+        font-size: 0.8rem;
+        margin: 1rem 0.5rem 0 0.5rem;
     }
 
     .thanks{
-        font-size: 0.6rem;
-        margin: 1rem 0 0 0;
+        font-size: 0.5rem;
+        margin: 1rem 0.5rem 0 0.5rem;
     }
-
+   
     @keyframes contact {
         0%, 31%, 45%, 57%, 65%, 70%, 100%  { 
             opacity: 1;
