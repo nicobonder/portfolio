@@ -378,16 +378,26 @@
         animation-iteration-count: infinite;
     }
 
-     .th h1{
-        font-size: 0.7rem;
+    .th h1{
+        font-size: 0.6rem;
         margin: 1rem 0.5rem 0 0.5rem;
     }
 
     .thanks{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         margin: 1rem 0.5rem 0 0.5rem;
     }
-   
+
+    .th a{
+        text-decoration: none;
+        color: #F5AF31;
+    }
+
+    .th h3{
+        margin: 1rem 0.5rem 0 0.5rem;
+        font-size: 0.5rem;
+    }
+
     @keyframes contact {
         0%, 31%, 45%, 57%, 65%, 70%, 100%  { 
             opacity: 1;
@@ -787,7 +797,17 @@
         font-size: 0.5rem;
         margin: 1rem 0.5rem 0 0.5rem;
     }
-   
+
+    .th a{
+        text-decoration: none;
+        color: #F5AF31;
+    }
+
+    .th h3{
+        margin: 1rem 0.5rem 0 0.5rem;
+        font-size: 0.6rem;
+    }
+
     @keyframes contact {
         0%, 31%, 45%, 57%, 65%, 70%, 100%  { 
             opacity: 1;
@@ -1174,12 +1194,22 @@
 
     .th h1{
         font-size: 1rem;
-        margin: 1rem 0 0 0;
+        margin: 1rem 1rem 0 1rem;
     }
 
     .thanks{
         font-size: 0.6rem;
-        margin: 1rem 0 0 0;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .th a{
+        text-decoration: none;
+        color: #F5AF31;
+    }
+
+    .th h3{
+        margin: 1rem 1rem 0 1rem;
+        font-size: 0.8rem;
     }
 
     @keyframes contact {
@@ -1570,12 +1600,22 @@
 
     .th h1{
         font-size: 1rem;
-        margin: 1rem 0 0 0;
+        margin: 1rem 1rem 0 1rem;
     }
 
     .thanks{
         font-size: 0.6rem;
-        margin: 1rem 0 0 0;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .th a{
+        text-decoration: none;
+        color: #F5AF31;
+    }
+
+    .th h3{
+        margin: 1rem 1rem 0 1rem;
+        font-size: 0.8rem;
     }
 
     @keyframes contact {
@@ -1962,12 +2002,22 @@
 
     .th h1{
         font-size: 1.1rem;
-        margin: 1rem 0 0 0;
+        margin: 1rem 1rem 0 1rem;
     }
 
     .thanks{
         font-size: 0.6rem;
-        margin: 1rem 0 0 0;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .th a{
+        text-decoration: none;
+        color: #F5AF31;
+    }
+
+    .th h3{
+        margin: 1rem 1rem 0 1rem;
+        font-size: 0.8rem;
     }
 
     @keyframes contact {
@@ -2341,6 +2391,17 @@
         font-size: 0.6rem;
         margin: 1rem 0 0 2rem;
     }
+
+    .th a{
+        text-decoration: none;
+        color: #F5AF31;
+    }
+
+    .th h3{
+        margin: 1rem 0 0 2rem;
+        font-size: 0.8rem;
+    }
+
 
     @keyframes contact {
         0%, 31%, 45%, 57%, 65%, 70%, 100%  { 
