@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/1c1e42e019.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../styles/style.css">
+    
+    <title>Nico Bonder Portfolio - Español</title>
+</head>
+
+<body>
+    <!-- ID Particles.js LE estoy diciendo q adentro de este div van a estar las particulas-->
+    <div id="particles-js"></div>
+    
+    <section class="container">
+        <div class="presentacion">
+           <div class="left">
+               <p class="hello">Hola</p>
+               <h1>Soy Nico Bonder</h1>
+               <p class="developer">Web Developer</p> 
+               <a href="https://wa.me/5493515184294"><h3 id="contact">Contáctame <i class="fab fa-whatsapp"></i></h3></a>
+           </div>
+           <div class="right">
+               <img src="../Nico.png" alt="">
+               <div class="spanish">
+                    <p>English version</p>
+                    <a href="../"><h3>Click Here</h3></a>
+            </div>
+           </div>
+        </div>
+        
+        <div class="about">
+            <div class="left2">
+                <h2>¿Quién soy?</h2>
+                <p>En 2021 comencé a estudiar para convertirme en Desarrollador Web. Hice The Web Developer Bootcamp dictado por Colt Steele en Udemy.
+                   <br> Ahora estoy practicando y trato de aprender algo nuevo cada día.
+                    <br>                 
+                    <br>
+                    Soy licenciado en Administración, pero hace algunos años me di cuenta que quería hacer algo más creativo. Como amo leer y escribir, los últimos años estuve trabajando como escritor de contenido freelance.
+                    <br>
+                    <br>
+                    Creo que el desarrollo web es una muy buena carrera para usar toda mi creatividad para hacer cosas nuevas y ayudar a los clientes desde un punto de vista diferente.
+                    <br>             
+                    Además, una de mis pasiones es viajar, y creo que trabajar como desarrollador es compatible con el tipo de vida que estoy buscando, ya que puedo tener un trabajo de tiempo completo y hacerlo de manera remota.
+                    </p>
+            </div>
+             
+            <div class="right2">
+                <h2>Información</h2>
+                <div class="info">
+                    <div class="column1">
+                        <p>Nombre:</p>
+                        <p>Dirección:</p>
+                        <p>Código Postal:</p>
+                        <p>Email:</p>
+                       
+                    </div>
+
+                    <div class="shape">
+                        <img src="../shape.png" alt="">
+                    </div>
+
+                    <div class="column2">
+                        <p>Nicolás Bonder</p>
+                        <p>Monte Cristo, Córdoba (Arg)</p>
+                        <p>5125</p>
+                        <p>nicolasbonder@gmail.com</p>
+                        
+                    </div>
+                </div>
+                <div class="cvEsp">
+                    <h3><a href="../CV_Nico_Bonder_esp.pdf" download="Nico Bonder CV">Descarga mi CV</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="projectSection">
+            <h2>Mis proyectos</h2>
+            <div class="project">
+                <div class="content">
+                   <a href="https://nicobonder.github.io/contentwriter/" target="_blank"><h3>Content Writer</h3></a>
+                    
+                </div>
+
+                <div class="alto">
+                  <a href="https://altoviaje.herokuapp.com/" target="_blank"><h3>Alto Viaje Blog</h3></a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="contactSection">
+            <h2>Contáctame</h2>
+            <form action="https://formsubmit.co/nicobonder@hotmail.com" method="POST">
+                <div class="data">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="nombre" placeholder="Nombre:" required minlength="4" maxlength="12">
+                    
+                    <label for="email"></label>
+                    <input type="text" id="email" name="email" placeholder="Email:" required>
+                </div>
+                <div class="text">
+                    <textarea name="text" id="text" cols="30" rows="8" placeholder="Déjame un mensaje" required minlength="10" maxlength="800"></textarea>
+                </div>
+                <input id="send" type="submit" value="Enviar">
+                
+
+                <input type="hidden" name="_next" value="https://nicobonder.github.io/portfolio/views/gracias.html">
+              
+            </form>
+        </div>
+    </section>
+
+<!-- JS Particles.js -->
+<script src="../js/particles.min.js"></script>
+<script src="../js/app.js"></script>
+
+</body>
+
+</html>
