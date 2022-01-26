@@ -196,6 +196,33 @@
         margin-left: 0.5rem;
     }
 
+    .softSkills{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: right;
+        margin-top: 0.5rem;
+      
+        z-index: 1;
+    }
+
+    .softSkills li{
+        font-size: 0.4rem;
+        margin-bottom: 0.3rem;
+        margin-left: 0.8rem;
+        margin-right: 0.4rem;
+    }
+
+    .softSkills h2{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .cvEsp a, .cvEn a{
+        color: white;
+    }
+
     .cvEsp{
         border: 1px solid #F5AF31;
         border-radius: 0.0125rem;
@@ -203,10 +230,11 @@
         width: 5.5rem;
         font-size: 0.4rem;
         text-align: center;
-        margin: 1rem 0 0 0;
+        margin: 0.5rem 0 0 0;
         padding: 0.1rem 0rem;
     }
 
+    
     .cvEn{
         border: 1px solid #F5AF31;
         border-radius: 0.0125rem;
@@ -214,7 +242,7 @@
         width: 5.4rem;
         font-size: 0.4rem;
         text-align: center;
-        margin: 1rem 0 0 0;
+        margin: 0;
         padding: 0.1rem 0.2rem;
     }
 
@@ -637,6 +665,31 @@
         margin-left: 0.5rem;
     }
 
+    .softSkills{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: right;
+        margin-top: 0.5rem;
+      
+        z-index: 1;
+    }
+
+    .softSkills li{
+        font-size: 0.5rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .softSkills h2{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .cvEsp a, .cvEn a{
+        color: white;
+    }
+
     .cvEsp{
         border: 1px solid #F5AF31;
         border-radius: 0.0125rem;
@@ -644,7 +697,7 @@
         width: 5.5rem;
         font-size: 0.5rem;
         text-align: center;
-        margin: 1rem 0 0 0;
+        margin: 0;
         padding: 0.1rem 0.2rem;
     }
 
@@ -655,10 +708,11 @@
         width: 6.5rem;
         font-size: 0.5rem;
         text-align: center;
-        margin: 1rem 0 0 0;
+        margin: 0;
         padding: 0.1rem 0.2rem;
     }
 
+    
     .right2 a{
         color: white;
         text-decoration: none;
@@ -1073,6 +1127,32 @@
         margin-left: 0.5rem;
     }
 
+    .softSkills{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: right;
+        margin-top: 0.5rem;
+      
+        z-index: 1;
+    }
+
+    .softSkills li{
+        font-size: 0.6rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .softSkills h2{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .cvEsp a, .cvEn a{
+        color: white;
+    }
+
+
     .cvEsp{
         border: 1px solid #F5AF31;
         border-radius: 0.0125rem;
@@ -1080,7 +1160,7 @@
         width: 5.5rem;
         font-size: 0.5rem;
         text-align: center;
-        margin: 1rem 0 0 0;
+        margin: 0.5rem 0;
         padding: 0.1rem 0.2rem;
     }
 
@@ -1091,7 +1171,7 @@
         width: 6.5rem;
         font-size: 0.5rem;
         text-align: center;
-        margin: 1rem 0 0 0;
+        margin: 0.5rem 0;
         padding: 0.1rem 0.2rem;
     }
 
@@ -1498,12 +1578,41 @@
         z-index: 1;
     }
 
+    .right2{
+        color: white;
+    }
+
     .info p{
         margin-bottom: 0.5rem;
     }
 
     .column2{
         margin-left: 0.5rem;
+    }
+
+    .softSkills{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: right;
+        margin-top: 0.5rem;
+      
+        z-index: 1;
+    }
+
+    .softSkills li{
+        font-size: 0.6rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .softSkills h2{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .cvEsp a, .cvEn a{
+        color: white;
     }
 
     .cvEsp{
@@ -1935,6 +2044,31 @@
         margin-left: 0.05rem;
     }
 
+    .softSkills{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: right;
+        margin-top: 0.5rem;
+        
+        z-index: 1;
+    }
+
+    .softSkills li{
+        font-size: 0.6rem;
+        margin-bottom: 0.3rem;
+        margin-left: 1rem;
+    }
+
+    .softSkills h2{
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .cvEsp a, .cvEn a{
+        color: white;
+    }
+
     .cvEsp{
         border: 1px solid #F5AF31;
         border-radius: 0.0125rem;
@@ -1942,7 +2076,7 @@
         width: 5.5rem;
         font-size: 0.6rem;
         text-align: center;
-        margin: 7.8rem 0 0 0;
+        margin: 1rem 0 0 0;
     }
 
     .cvEn{
@@ -1952,7 +2086,7 @@
         width: 5.5rem;
         font-size: 0.6rem;
         text-align: center;
-        margin: 5.2rem 0 0 0;
+        margin: 1rem 0 0 0;
     }
 
     .right2 a{
@@ -2324,7 +2458,8 @@
         width: 55%;
         text-align: center;
         align-items: center;
-        margin-left: 2.5rem;
+        margin-left: 1.2rem;
+        padding-right: 1.2rem;
     }
 
     .info{
@@ -2351,17 +2486,21 @@
         width: 6.5rem;
         font-size: 0.7rem;
         text-align: center;
-        margin: 11rem 0 0 0;
+        margin: 1rem 0 0 0;
+    }
+
+    .cvEsp a, .cvEn a{
+        color: white;
     }
 
     .cvEn{
         border: 1px solid #F5AF31;
         border-radius: 0.0125rem;
         color: white;
-        width: 6rem;
+        width: 6.5rem;
         font-size: 0.7rem;
         text-align: center;
-        margin: 7.8rem 0 0 0;
+        margin: 1rem 0 0 0;
     }
 
     .right2 a{
